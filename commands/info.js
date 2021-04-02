@@ -1,3 +1,13 @@
+const { VK, Keyboard } = require('vk-io')
+const config = require("../config.json");
+
+const vk = new VK({
+    token: config.access_token.group,
+    lang: "ru",
+    pollingGroupId: config.id.group,
+    apiMode: "parallel"
+});
+
 /*-------------------------------------------------------------------*/
 /*     |                       Инфо
 /*-------------------------------------------------------------------*/
