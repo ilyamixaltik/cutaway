@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ilya Mixaltik",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vk-io": "^4.0.0-rc.30"
+  }
 }
